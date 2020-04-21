@@ -1,6 +1,5 @@
 <template>
-  <section  class="footer-block">
-  </section>
+  <section class="footer-block" />
 </template>
 
 <script>

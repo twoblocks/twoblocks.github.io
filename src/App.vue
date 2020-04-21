@@ -22,8 +22,8 @@
                       class="vert-center widthMobil"
                       src="/img/twoblocks-logo.png"
                       alt="twoblocks-logo"
-                    />
-                    <span>{{$t('header.head')}}</span>
+                    >
+                    <span>{{ $t('header.head') }}</span>
                   </router-link>
                 </div>
               </v-list-item-title>
@@ -56,7 +56,13 @@
               <v-list-item-content>
                 <v-list-item-title class="title d-flex">
                   <div class="d-flex align-center pr-3">
-                    <v-btn text small @click="switchLang($t('lang'))">{{$t('lang')}}</v-btn>
+                    <v-btn
+                      text
+                      small
+                      @click="switchLang($t('lang'))"
+                    >
+                      {{ $t('lang') }}
+                    </v-btn>
                   </div>
                 </v-list-item-title>
               </v-list-item-content>

@@ -3,9 +3,14 @@
     <v-container>
       <v-row>
         <v-col>
-          <h1>{{$t('header.head')}}</h1>
-          <h3>{{$t('header.bodyText')}}</h3>
-          <v-btn class="header-block__learnMore" outlined>{{$t('header.subscribeBtn')}}</v-btn>
+          <h1>{{ $t('header.head') }}</h1>
+          <h3>{{ $t('header.bodyText') }}</h3>
+          <v-btn
+            class="header-block__learnMore"
+            outlined
+          >
+            {{ $t('header.subscribeBtn') }}
+          </v-btn>
         </v-col>
       </v-row>
     </v-container>

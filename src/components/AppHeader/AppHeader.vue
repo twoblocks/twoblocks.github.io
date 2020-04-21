@@ -20,8 +20,8 @@
                 class="vert-center widthMobil"
                 src="/img/twoblocks-logo.png"
                 alt="twoblocks-logo"
-              />
-              <span>{{$t('header.head')}}</span>
+              >
+              <span>{{ $t('header.head') }}</span>
             </a>
           </div>
         </v-toolbar-title>
@@ -42,9 +42,15 @@
                 {{ item.text }}
               </a>
             </div>
-            <div class="divider_class"/>
+            <div class="divider_class" />
             <div class="d-flex align-center pr-3">
-              <v-btn text small @click="$emit('switchLang', $t('lang'))">{{$t('lang')}}</v-btn>
+              <v-btn
+                text
+                small
+                @click="$emit('switchLang', $t('lang'))"
+              >
+                {{ $t('lang') }}
+              </v-btn>
             </div>
           </v-toolbar-items>
         </div>

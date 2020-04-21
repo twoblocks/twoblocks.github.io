@@ -5,9 +5,9 @@ branches:
   only:
     - master
 install:
-  - npm install
+  - yarn install
 script:
-  - npm run build
+  - yarn build
 deploy:
   provider: pages
   skip_cleanup: true

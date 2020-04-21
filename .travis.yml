@@ -1,14 +1,19 @@
 language: node_js
 node_js:
   - "stable"
+branches:
+  only:
+    - dev
 install:
   - yarn install
 script:
   - yarn build
 deploy:
   provider: pages
+  target_branch: master
+  keep_history: true
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   local_dir: dist
   on:
-    branch: master
+    branch: dev

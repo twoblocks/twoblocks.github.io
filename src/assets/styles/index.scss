@@ -15,7 +15,7 @@ $subheadHeightLineSection: 20px;
 //Variables for colors
 $primaryColor: #38DF64;
 $primaryTextColor: #007C21;
-$secondaryColor: #39AECF;
+$secondaryColor: #388E3C;
 
 //Fonts
 $font-family: 'Montserrat', sans-serif;
@@ -54,6 +54,7 @@ body{
 
 //classes for colors
 .primaryColor { color: $primaryColor !important}
+.primaryTextColor { color: $primaryTextColor !important}
 .secondaryColor { color: $secondaryColor !important}
 
 //classes for sections
@@ -77,4 +78,14 @@ body{
   .v-input__slot{
     marign-top: 10px;
   }
+}
+.header__text__section_block{
+  text-align: center;
+}
+.subheader__text__section_block{
+  text-align: center;
+}
+.target-class{
+  position: absolute;
+  top: -100px;
 }

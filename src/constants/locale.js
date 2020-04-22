@@ -17,6 +17,47 @@ export default{
                 {id: 5, item: `Мы - действующие предприниматели. Это то, что принципиально выделяет нас среди похожих инициатив блокчейн-индустрии.`}
             ]
         },
+        advantagesBlock: {
+            head: "Преимущества",
+            skills: {
+                skillsHead: "Мы специализируемся на разработке:",
+                items: [
+                    {id: 1, item: `Выпуск токенов для всех популярных платформ (Ethereum, Tron, Waves)`},
+                    {id: 2, item: `Криптовалютные биржи` },
+                    {id: 3, item: `Криптовалютные обменники` },
+                    {id: 4, item: `Криптовалютные кошельки`},
+                    {id: 5, item: `Платформы p2p кредитования`},
+                    {id: 6, item: `️Платежные шлюзы`},
+                    {id: 7, item: `️Боты телеграм`},
+                    {id: 8, item: `️Биржевые роботы`},
+                    {id: 9, item: `️DAPP`},
+                    {id: 10, item: `Smart-contracts`}
+                ]
+            }
+        },
+        portfolioBlock: {
+            head: "Портфолио",
+            slides: [
+                {id: 1, image: '1.png'},
+                {id: 2, image: '2.png'},
+                {id: 3, image: '3.png'},
+                {id: 4, image: '4.png'},
+                {id: 5, image: '5.png'},
+            ]
+        },
+        aboutTeams: {
+            head: "Наша команда",
+            persons: [
+                {id: 1, img: "", name: "Рогальский Иван", position: "Product manager", skills: "Специалист в области управления проектами, несет ответственность за планирование, подготовку и исполнение всех проектов команды"},
+                {id: 2, img: "", name: "Волков Александр", position: "Node.js developer", skills: "Разработчик, специализирующийся на разработке высоконагруженных систем на языке Node.js"},
+                {id: 3, img: "", name: "Иконников Марк", position: "Developer", skills: "Специалист разработки блокчейн систем и смарт-контрактов, специализируется на языке Scala"},
+                {id: 4, img: "", name: "Гаврилов Кирилл", position: "Node.js developer", skills: "Разработчик, специалист по построению web-app архитектуры, специализируется на vue, react, angular"},
+                {id: 5, img: "", name: "Серов Артём", position: "1С developer", skills: "Специалист по разработки и внедрению ERP систем на платформе 1С"},
+                {id: 6, img: "", name: "Михайлов Владимир", position: "Node.js developer", skills: "Специалист по построению гибких решений на основе открытого ПО"},
+                {id: 7, img: "", name: "Перегудов Дмитрий", position: "Python developer", skills: "Специалист по обслуживанию блокчейн сети"},
+                {id: 8, img: "", name: "Новосельцев Михаил", position: "Python developer", skills: "Специалист по обслуживанию блокчейн сети"},
+            ]
+        },
         footerBlock:{
 
         },
@@ -30,7 +71,7 @@ export default{
         {
           id: 2,
           text: "Почему мы",
-          link: "#whyus",
+          link: "#why-us",
           target: "_self"
         },
         {
@@ -164,6 +205,34 @@ export default{
                 {id: 3, item: `The TwoBlocks team is primarily a team of people with practical thinking`},
                 {id: 4, item: `We are people who look at the blockchain through the prism of real practical applicability and effectiveness for business.`},
                 {id: 5, item: `We are active entrepreneurs. This is what fundamentally sets us apart from similar initiatives of the blockchain industry.`}
+            ]
+        },
+        advantagesBlock: {
+            head: "Advantages",
+            skills: {
+                skillsHead: "We specialize in the development of:",
+                items: [
+                    {id: 1, item: `Token release for all popular platforms (Ethereum, Tron, Waves)`},
+                    {id: 2, item: `Cryptocurrency exchanges`},
+                    {id: 3, item: `Cryptocurrency exchangers`},
+                    {id: 4, item: `Cryptocurrency wallets`},
+                    {id: 5, item: `P2P lending platforms`},
+                    {id: 6, item: `️Payment gateways`},
+                    {id: 7, item: `️Telegram Bots`},
+                    {id: 8, item: `️Exchange Robots`},
+                    {id: 9, item: `️DAPP`},
+                    {id: 10, item: `Smart-contracts`}
+                ]
+            }
+        },
+        portfolioBlock: {
+            head: "Portfolio",
+            slides: [
+                {id: 1, image: '1.png'},
+                {id: 2, image: '2.png'},
+                {id: 3, image: '3.png'},
+                {id: 4, image: '4.png'},
+                {id: 5, image: '5.png'},
             ]
         },
         footerBlock:{

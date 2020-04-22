@@ -1,11 +1,12 @@
 <template>
   <section class="why-us-block">
-    <v-container>
+    <div id="why-us" class="target-class" />
+    <v-container class="mxw1200">
       <v-row>
         <v-col>
-          <h2>{{ $t('whyUsBlock.head') }}</h2>
-          <v-divider />
-          <div class="whyUsBlockText">
+          <h2 class="header__text__section_block secondaryColor">{{ $t('whyUsBlock.head') }}</h2>
+
+          <div class="whyUsBlockText secondaryColor">
             <div
               v-for="(whyUsBlockItem, i) in $t('whyUsBlock.texts')"
               :key="`whyUsBlockItem${i}`"
@@ -14,6 +15,11 @@
               <span>{{ whyUsBlockItem.item }}</span>
             </div>
           </div>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+
         </v-col>
       </v-row>
     </v-container>
@@ -29,11 +35,15 @@
 <style lang="scss" scope>
 @import "../../assets/styles/index";
 .why-us-block{
-    margin: 25px 0;
+  border-bottom: 1px solid $primaryColor;
+  position: relative;
+    padding: 100px 0;
     .whyUsBlockText{
-        margin-top: 20px;
+        margin-top: 50px;
         .whyUsBlockText__item{
-            padding: 10px 0;
+          font-size: 20px;
+          text-align: center;
+          padding: 10px 0;
         }
     }
 }

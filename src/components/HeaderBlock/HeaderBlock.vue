@@ -1,19 +1,14 @@
 <template>
   <section class="header-block">
     <div id="home" class="target-class" />
-    <v-container class="mxw1200">
-      <v-row class="header_text">
-        <v-col >
-          <h1 class="secondaryColor">{{ $t('header.head') }}</h1>
-          <h3 class="secondaryColor">{{ $t('header.bodyText') }}</h3>
-          <v-btn
-            class="header-block__learnMore"
-            outlined
-            href="#why-us"
-            color="secondaryColor"
-          >
-            {{ $t('header.subscribeBtn') }}
-          </v-btn>
+    <v-container class="mxw1200 height100pr">
+      <v-row class="header-block-width ">
+        <v-col cols="12" md="6" class="header_text">
+          <h1 v-html="$t('header.bodyText')"></h1>
+          <input type="button" class="header-block__learnMore" href="#why-us" :value="$t('header.subscribeBtn')">
+        </v-col>
+        <v-col cols="12" md="6" class="img_header_column">
+
         </v-col>
       </v-row>
     </v-container>
@@ -31,17 +26,40 @@ export default {
 .header-block{
   position: relative;
   height: 100vh;
-  padding-top: 100px;
-  border-bottom: 1px solid $primaryColor;
-  background-image: url(/img/Header_block.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  .header_text{
-    padding-top: 100px;
-  }
-  .header-block__learnMore{
-    margin-top: 20px;
+  padding-top: 56px;
+  background-color: $primarySurface;
+  .header-block-width {
+    height: 100%;
+    .header_text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      height: 100%;
+      h1 {
+        font-size: 45px;
+        color: white;
+      }
+      .header-block__learnMore{
+        margin-top: 60px;
+        width: 200px;
+        height: 45px;
+        text-align: center;
+        border-radius: 4px;
+        background-color: $secondaryColor;
+        text-transform: uppercase;
+        font-weight: 500;
+        transition: .2s;
+        &:hover {
+          transition: .2s;
+          box-shadow: 0 4px 10px -3px #FFC300;
+          background-color: #FFC300;
+        }
+      }
+    }
+    .img_header_column{
+
+    }
   }
 }
 </style>

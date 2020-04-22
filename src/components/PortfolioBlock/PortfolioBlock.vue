@@ -4,7 +4,7 @@
         <v-container class="mxw1200">
             <v-row>
                 <v-col>
-                    <h2 class="header__text__section_block secondaryColor">{{ $t('portfolioBlock.head') }}</h2>
+                    <h2 class="header__text__section_block header_section_head">{{ $t('portfolioBlock.head') }}</h2>
                 </v-col>
             </v-row>
             <v-row>
@@ -45,5 +45,7 @@
 
 <style lang="scss" scope>
 @import "../../assets/styles/index";
-
+.header__text__section_block {
+    margin-bottom: 40px;
+}
 </style>

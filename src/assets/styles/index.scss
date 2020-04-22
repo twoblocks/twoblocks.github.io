@@ -13,9 +13,11 @@ $subheadSection: 16px;
 $subheadHeightLineSection: 20px;
 
 //Variables for colors
-$primaryColor: #38DF64;
-$primaryTextColor: #007C21;
-$secondaryColor: #388E3C;
+$primaryColor: #087CEC;
+$primarySurface: #449EF5;
+$primaryTextColor: #FF5300;
+$secondaryColor: #FFDE73;
+$thirdColor: #FF5300;
 
 //Fonts
 $font-family: 'Montserrat', sans-serif;
@@ -43,6 +45,15 @@ body{
   overflow: hidden;
 }
 
+.header_section_head {
+  font-size: 32px;
+  text-align: center;
+}
+
+.someText {
+  font-size: 20px;
+}
+
 .mxw1200{
   max-width: 1200px;
   margin-left:auto;
@@ -56,6 +67,7 @@ body{
 .primaryColor { color: $primaryColor !important}
 .primaryTextColor { color: $primaryTextColor !important}
 .secondaryColor { color: $secondaryColor !important}
+.thirdColor { color: $thirdColor !important}
 
 //classes for sections
 .headSection {
@@ -79,13 +91,10 @@ body{
     marign-top: 10px;
   }
 }
-.header__text__section_block{
-  text-align: center;
-}
-.subheader__text__section_block{
-  text-align: center;
-}
 .target-class{
   position: absolute;
   top: -100px;
+}
+.height100pr {
+  height: 100%;
 }

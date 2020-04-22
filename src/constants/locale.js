@@ -4,7 +4,7 @@ export default{
         drawer:{},
         header:{
            head:"TwoBlocks",
-           bodyText:"Блокчейн-команда для вашего Бизнеса",
+           bodyText:`Блокчейн-команда<br /> для вашего Бизнеса`,
            subscribeBtn:"Подробнее"
         },
         whyUsBlock: {
@@ -22,7 +22,7 @@ export default{
             skills: {
                 skillsHead: "Мы специализируемся на разработке:",
                 items: [
-                    {id: 1, item: `Выпуск токенов для всех популярных платформ (Ethereum, Tron, Waves)`},
+                    {id: 1, item: `Выпуск токенов (Ethereum, Tron, Waves...)`},
                     {id: 2, item: `Криптовалютные биржи` },
                     {id: 3, item: `Криптовалютные обменники` },
                     {id: 4, item: `Криптовалютные кошельки`},
@@ -194,7 +194,7 @@ export default{
         drawer:{},
         header:{
             head:"TwoBlocks",
-            bodyText:"Blockchain team for your Business",
+            bodyText:`Blockchain team<br />  for your Business`,
             subscribeBtn:"Learn more"
         },
         whyUsBlock: {
@@ -212,7 +212,7 @@ export default{
             skills: {
                 skillsHead: "We specialize in the development of:",
                 items: [
-                    {id: 1, item: `Token release for all popular platforms (Ethereum, Tron, Waves)`},
+                    {id: 1, item: `Token release (Ethereum, Tron, Waves...)`},
                     {id: 2, item: `Cryptocurrency exchanges`},
                     {id: 3, item: `Cryptocurrency exchangers`},
                     {id: 4, item: `Cryptocurrency wallets`},

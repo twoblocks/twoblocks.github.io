@@ -33,12 +33,18 @@ export default {
     .header_text {
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
       justify-content: center;
       height: 100%;
+      @include respond-to(large-screens) { align-items: flex-start; }
       h1 {
-        font-size: 45px;
+        font-size: 25px;
+        text-align: center;
         color: white;
+        @include respond-to(large-screens) {
+          font-size: 45px;
+          text-align: left;
+        }
       }
       .header-block__learnMore{
         margin-top: 60px;

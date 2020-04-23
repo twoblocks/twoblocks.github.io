@@ -46,8 +46,9 @@ body{
 }
 
 .header_section_head {
-  font-size: 32px;
+  font-size: 20px;
   text-align: center;
+  @include respond-to(large-screens) { font-size: 32px; }
 }
 
 .someText {

@@ -39,11 +39,8 @@
 @import "../../assets/styles/index";
 .advantages-block{
     position: relative;
-    padding: 100px 0;
-
-    .advantages-block_header{
-
-    }
+    padding: 20px 0;
+    @include respond-to(large-screens) { padding: 100px 0; }
     .advantages-block_row {
         margin-top: 40px;
         .advantages-block_text {
@@ -58,10 +55,14 @@
                     background-color: $primaryColor;
                     box-shadow: 0 4px 10px -5px $primaryColor;
                     max-width: 450px;
-                    padding: 20px;
+                    padding: 14px;
                     font-size: 18px;
                     border-radius: 5px;
                     font-weight: bold;
+                    @include respond-to(large-screens) {
+                        padding: 20px;
+                        font-size: 18px;
+                    }
                 }
             }
         }

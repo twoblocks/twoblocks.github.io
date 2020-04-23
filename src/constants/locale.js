@@ -22,16 +22,18 @@ export default{
             skills: {
                 skillsHead: "Мы специализируемся на разработке:",
                 items: [
-                    {id: 1, item: `Выпуск токенов (Ethereum, Tron, Waves...)`},
-                    {id: 2, item: `Криптовалютные биржи` },
-                    {id: 3, item: `Криптовалютные обменники` },
-                    {id: 4, item: `Криптовалютные кошельки`},
-                    {id: 5, item: `Платформы p2p кредитования`},
-                    {id: 6, item: `️Платежные шлюзы`},
-                    {id: 7, item: `️Боты телеграм`},
-                    {id: 8, item: `️Биржевые роботы`},
-                    {id: 9, item: `️DAPP`},
-                    {id: 10, item: `Smart-contracts`}
+                    {id: 1, item: `Выпуск токенов<br />(Ethereum, Tron, Waves...)`, img: "mdi-account-cash-outline"},
+                    {id: 2, item: `Криптовалютные<br />биржи`, img: "mdi-account-cash-outline" },
+                    {id: 3, item: `Криптовалютные<br />обменники`, img: "mdi-account-cash-outline" },
+                    {id: 4, item: `Криптовалютные<br />кошельки` , img: "mdi-account-cash-outline"},
+                    {id: 5, item: `Платформы<br />p2p кредитования`, img: "mdi-account-cash-outline"},
+                    {id: 6, item: `️Платежные<br />шлюзы`, img: "mdi-account-cash-outline"},
+                    {id: 7, item: `️Боты<br />телеграм`, img: "mdi-account-cash-outline"},
+                    {id: 8, item: `️Биржевые<br />роботы`, img: "mdi-account-cash-outline"},
+                    {id: 9, item: `️DAPP`, img: "mdi-account-cash-outline"},
+                    {id: 10, item: `Smart-contracts`, img: "mdi-account-cash-outline"},
+                    {id: 11, item: `Мобильные<br />приложения`, img: "mdi-account-cash-outline"},
+                    {id: 12, item: `Сайты<br />компаний`, img: "mdi-account-cash-outline"}
                 ]
             }
         },
@@ -212,16 +214,18 @@ export default{
             skills: {
                 skillsHead: "We specialize in the development of:",
                 items: [
-                    {id: 1, item: `Token release (Ethereum, Tron, Waves...)`},
-                    {id: 2, item: `Cryptocurrency exchanges`},
-                    {id: 3, item: `Cryptocurrency exchangers`},
-                    {id: 4, item: `Cryptocurrency wallets`},
-                    {id: 5, item: `P2P lending platforms`},
-                    {id: 6, item: `️Payment gateways`},
-                    {id: 7, item: `️Telegram Bots`},
-                    {id: 8, item: `️Exchange Robots`},
-                    {id: 9, item: `️DAPP`},
-                    {id: 10, item: `Smart-contracts`}
+                    {id: 1, item: `Token release<br />(Ethereum, Tron, Waves...)`, img: "mdi-account-cash-outline"},
+                    {id: 2, item: `Cryptocurrency<br />exchanges`, img: "mdi-account-cash-outline"},
+                    {id: 3, item: `Cryptocurrency<br />exchangers`, img: "mdi-account-cash-outline"},
+                    {id: 4, item: `Cryptocurrency<br />wallets`, img: "mdi-account-cash-outline"},
+                    {id: 5, item: `P2P lending<br />platforms`, img: "mdi-account-cash-outline"},
+                    {id: 6, item: `️Payment<br />gateways`, img: "mdi-account-cash-outline"},
+                    {id: 7, item: `️Telegram<br />Bots`, img: "mdi-account-cash-outline"},
+                    {id: 8, item: `️Exchange<br />Robots`, img: "mdi-account-cash-outline"},
+                    {id: 9, item: `️DAPP`, img: "mdi-account-cash-outline"},
+                    {id: 10, item: `Smart-contracts`, img: "mdi-account-cash-outline"},
+                    {id: 11, item: `App<br />mobile`, img: "mdi-account-cash-outline"},
+                    {id: 12, item: `Sites<br />for company`, img: "mdi-account-cash-outline"}
                 ]
             }
         },

@@ -1,6 +1,6 @@
 <template>
     <section class="portfolio-block">
-        <div id="why-us" class="target-class" />
+        <div id="portfolio" class="target-class" />
         <v-container class="mxw1200">
             <v-row>
                 <v-col>
@@ -18,9 +18,7 @@
                             v-for="(slide, i) in $t('portfolioBlock.slides')"
                             :key="i"
                         >
-                            <v-sheet
-                                height="100%"
-                            >
+                            <v-sheet height="100%">
                                 <v-row
                                     class="fill-height"
                                     align="center"
@@ -45,7 +43,11 @@
 
 <style lang="scss" scope>
 @import "../../assets/styles/index";
+.portfolio-block{
+    position: relative;
+}
 .header__text__section_block {
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 </style>

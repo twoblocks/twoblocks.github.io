@@ -4,6 +4,7 @@
     <why-us-block />
     <advantages-block />
     <portfolio-block />
+    <about-teams-block />
   </div>
 </template>
 
@@ -12,6 +13,7 @@
   import WhyUsBlock from "../components/WhyUsBlock/WhyUsBlock";
   import AdvantagesBlock from "../components/AdvantagesBlock/AdvantagesBlock";
   import PortfolioBlock from "../components/PortfolioBlock/PortfolioBlock";
+  import AboutTeamsBlock from "../components/AboutTeamsBlock/AboutTeamsBlock";
 
   export default {
   name: "App",
@@ -20,7 +22,8 @@
     HeaderBlock,
     WhyUsBlock,
     AdvantagesBlock,
-    PortfolioBlock
+    PortfolioBlock,
+    AboutTeamsBlock
   },
 
   data() {

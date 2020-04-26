@@ -5,7 +5,7 @@
       <v-row class="header-block-width ">
         <v-col cols="12" md="6" class="header_text">
           <h1 v-html="$t('header.bodyText')"></h1>
-          <input type="button" class="header-block__learnMore" href="#why-us" :value="$t('header.subscribeBtn')">
+          <a href="#why-us"><input type="button" class="header-block__learnMore" :value="$t('header.subscribeBtn')"></a>
         </v-col>
         <v-col cols="12" md="6" class="img_header_column">
 

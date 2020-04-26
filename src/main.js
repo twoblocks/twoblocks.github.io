@@ -4,8 +4,6 @@ import vuetify from "./plugins/vuetify";
 import VueRouter from "vue-router";
 
 import MainPage from "./pages/MainPage";
-import PrivacyPage from "./pages/PrivacyPage";
-import CookiesPage from "./pages/CookiesPage";
 import VueI18n from 'vue-i18n'
 import locale from "./constants/locale";
 
@@ -15,9 +13,7 @@ Vue.use(VueI18n);
 Vue.config.productionTip = false;
 
 const routes = [
-  { path: "/", component: MainPage},
-  { path: "/privacy", component: PrivacyPage },
-  { path: "/cookie", component: CookiesPage }
+  { path: "/", component: MainPage}
 ];
 
 const router = new VueRouter({

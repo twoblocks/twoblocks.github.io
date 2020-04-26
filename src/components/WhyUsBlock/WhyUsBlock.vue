@@ -38,7 +38,7 @@
 .why-us-block{
   position: relative;
   padding: 50px 0;
-  @include respond-to(large-screens) { padding: 100px 0; }
+  @include respond-to(large-screens) { padding: 50px 0; }
   .row-body-Block{
     .whyUsBlockText{
       margin-top: 0px;

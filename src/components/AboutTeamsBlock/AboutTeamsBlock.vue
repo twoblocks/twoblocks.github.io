@@ -18,6 +18,7 @@
                     <v-card outlined class="teams-carts__item" >
                         <div class="imgSocial">
                             <v-img
+                                class="imgSocial_item"
                                 :src="`/img/imgComponents/AboutTeamsBlock/${member.img}.jpg`"
                                 height="300px"
                             />
@@ -69,7 +70,11 @@
                 position: relative;
                 flex-direction: column;
                 align-items: center;
+                justify-content: flex-start;
                 overflow: hidden;
+                imgSocial_item {
+
+                }
                 .social__item{
                     position: absolute;
                     top: 0;

@@ -19,9 +19,8 @@
               <img
                 class="vert-center widthMobil"
                 src="/img/twoblocks-logo.png"
-                alt="twoblocks-logo"
+                :alt="`${$t('header.head')}`"
               >
-              <span>{{ $t('header.head') }}</span>
             </a>
           </div>
         </v-toolbar-title>
